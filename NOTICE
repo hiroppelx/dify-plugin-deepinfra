@@ -1,0 +1,8 @@
+DeepInfra model provider plugin for Dify
+Copyright 2026 hiroppelx
+
+Portions of this plugin are derived from the Fireworks model provider in
+langgenius/dify-official-plugins (https://github.com/langgenius/dify-official-plugins),
+licensed under the Apache License, Version 2.0. They have been modified, notably to use
+the current OpenAI `tools` / `tool_calls` interface instead of the deprecated
+`functions` API.
