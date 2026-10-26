@@ -5,11 +5,11 @@ API at a low per-token price, and can be used directly from Dify.
 
 ## Features
 - Provides `llm` and `text-embedding` models in Dify.
-- Ships the full DeepInfra catalog: **106 chat models** and **24 embedding models**,
+- Ships the full DeepInfra catalog: **119 chat models** and **24 embedding models**,
   so every model DeepInfra advertises is selectable without typing an ID.
 - Capability flags are measured, not guessed: `context_size` and pricing come from
   DeepInfra's `/v1/openai/models` metadata, `vision` from its model tags, and
-  `tool-call` from probing every chat model against the live API — 10 of the 106 do
+  `tool-call` from probing every chat model against the live API — 10 of the 119 do
   not support tool calling and are marked accordingly.
 - Supports predefined model and customizable model configuration. Models DeepInfra
   adds after this release can be used immediately through **customizable model**
